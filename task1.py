@@ -19,7 +19,7 @@ assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Hav
 (2 points) 
 """
 
-def sentence(a="Hello", b="Benjamin.", c="How are you"):
+def sentence(a="Hello", b="Benjamin", c="How are you"):
     fullsentence = ""
     fullsentence = str(a) + " " + str(b) + ". " + str(c)
     return fullsentence
